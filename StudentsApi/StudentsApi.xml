@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentsApi</name>
+    </assembly>
+    <members>
+        <member name="T:StudentsApi.Controllers.AuthenticationController">
+            <summary>
+            Authentication operation controller. Here should be much more endpoints including create, delete accounts and password recovery and etc...
+            </summary>
+        </member>
+        <member name="M:StudentsApi.Controllers.AuthenticationController.Authenticate(StudentsApi.Models.AuthenticateModel)">
+            <summary>
+            Bearer authentication endpoint
+            </summary>
+            <param name="model">Authentication request model</param>
+            <returns>Success</returns>
+        </member>
+        <member name="T:StudentsApi.Services.JwtBearerAuthenticationService">
+            <summary>
+            Some hand-crafted jwt authentication service to providing test application simplicity
+            </summary>
+        </member>
+    </members>
+</doc>

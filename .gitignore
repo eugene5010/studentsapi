@@ -1,0 +1,7 @@
+*.user
+StudentsApi.Tests/bin/
+StudentsApi.Tests/obj/
+StudentsApi/bin/
+StudentsApi/.vs/
+StudentsApi/Logs/
+StudentsApi/obj/
